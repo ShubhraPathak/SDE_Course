@@ -80,4 +80,32 @@ Example:
 
 `Output: [1,2]`
 
-Solution 
+[Solution](linkedlist_practice_questions.py)
+
+3. Find the middle of the given linked list.
+
+[Two pointer solution explanation](2pointer_solution_for_linked_list.png) 
+
+[Solution](linkedlist_practice_questions.py)
+
+4. Find if the linked list is circular.
+Note: An empty linked is considered as circular linked list. A linked list will be circular if it is not NULL-terminated
+ and iterator reaches its head again.
+
+[Solution](linkedlist_practice_questions.py)
+
+5. count node of a given circular linked list
+
+[Solution](linkedlist_practice_questions.py)
+
+6. Exchange tail to head in a circular linked list.
+
+[Solution](linkedlist_practice_questions.py)
+
+7. Reverse a linked list
+
+##### Different Approaches:
+
+* 3 pointer iteration method
+* Recursion method
+* Stack method
