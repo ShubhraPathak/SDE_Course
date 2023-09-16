@@ -75,7 +75,7 @@ class Solution:
     # Solution 2: 2 pointer solution
     def removeNthFromEnd_solution2(self, head: ListNode, n: int) -> ListNode:
         fast, slow = head, head
-        print('currenct fast and slow pointer:', fast.val, slow.val)
+        print('current fast and slow pointer:', fast.val, slow.val)
         for _ in range(n):
             print('printing n and fast val: ', _, fast.val)
             fast = fast.next
